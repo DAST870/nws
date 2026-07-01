@@ -22,7 +22,10 @@ export function Header() {
           <Link to="/category/local">{labels.local}</Link>
           <Link to="/category/services">{labels.services}</Link>
           <Link to="/about">{labels.about}</Link>
-          <Link to="/admin" className="rounded-md bg-gray-950 px-3 py-2 text-white">
+          <Link
+            to="/admin"
+            className="rounded-lg bg-red-700 px-3 py-2 text-white transition hover:bg-red-800"
+          >
             {labels.admin}
           </Link>
         </nav>
